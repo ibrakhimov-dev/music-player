@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Music Player</title>
+</head>
+<body onload="currentData()">
+    <!--! Header start  -->
+    <header>
+        <div class="header-bg">
+            <!--! header top  -->
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-top-content">
+                        <div class="data">
+                            <div class="data-content">
+                                <h1 class="hour"></h1>
+                                <p class="day"></p>
+                            </div>
+                        </div>
+                        <div class="profile">
+                            <div class="profile-content">
+                                <div class="profile-img">
+                                    <img src="./img/Profile-Male-PNG.png" alt="Profile">
+                                </div>
+                                <div class="profile-name">
+                                    <h3>#mister_sher10</h3>
+                                    <p>Shermuhammad</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--! header main  -->
+            <div class="header-main">
+                <div class="container">
+                    <div class="header-main-content">
+                        <div class="music-content">
+                            <h1 class="music-name">Author - Music Name</h1>
+                            <p class="music-album">Album: none</p>
+                            <div class="music-img-content">
+                                <img src="./img/album.jpg"  
+                                class="music-img" 
+                                alt="Jony - Kometa">
+                                <div class="img-album">
+                                    <img src="./img/2903cc1778c8d1bba9a9e9936a91b7f7.png" alt="Album">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="music-text">
+                            <pre>[music text]</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--! music-manage -->
+            <div class="music-manage">
+                <div class="container">
+                    <div class="progress-cover">
+                        <div class="progress-bar">                            
+                        </div>
+                    </div>
+                    <audio src="./music/Enza - Forget Me (Original mix).mp3" id="music"></audio>
+                    <div class="manage-btn">
+                        <button type="button" class="prev">
+                            <i class="fa-solid fa-backward"></i>
+                        </button>
+                        <button type="button" class="pause">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                        <button type="button" class="next">
+                            <i class="fa-solid fa-forward"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--! Header end -->
+    <!--! Main start -->
+    <main>
+        <div class="music-container">
+            <div class="container">
+                <div class="music-container-content">
+                    <div class="music-container-title">
+                        <h1>My Songs 🎶❤️</h1>
+                    </div>
+                    <div class="music-container-card">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--! Main end -->
+    <!--! Footer start  -->
+    <footer>
+        <h2 class="footer">2023</h2>
+    </footer>
+    <!--! Footer end -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
